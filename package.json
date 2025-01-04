@@ -2,6 +2,9 @@
   "scripts": {
     "start": "vite"
   },
+  "scripts": {
+  "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css" 
+}
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
